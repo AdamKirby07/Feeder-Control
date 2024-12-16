@@ -1,21 +1,23 @@
-# Feeder Control  
+# Feeder Control
 
-The **Feeder Control** board is an open-source controller designed to work seamlessly with the [Opulo Lumen PNP feeder design](opulo.io). This board allows for the simple use of an M8 connector to individually control feeders without relying on a mandatory communication bus. Instead, it provides the option for a communication bus while also enabling simple direct connections. The USB-to-serial converter (**Feeder Commander**) is incredibly affordable, making this an ideal solution for a wide range of setups.  
+**Under development i just put something out there so that people can follow as i improve and upload more.**  
+
+The **Feeder Control** board is an open-source controller designed to work seamlessly with the [Opulo Lumen PNP feeder design](https://opulo.io). This board allows for the simple use of an M8 connector to individually control feeders without relying on a mandatory communication bus. Instead, it provides the option for a communication bus while also enabling simple direct connections. The USB-to-serial converter (**Feeder Commander**) is incredibly affordable, making this an ideal solution for a wide range of setups.  
 
 ## Key Features  
 - **M8 Connector Support**:  
   The M8 connector includes:  
-  - 3.3V logic signal  
+  - 3.3V Bus  
   - 12V power  
   - Ground  
   - TX/RX for serial communication  
   - An additional customizable pin (e.g., for feeder activation or other functions).  
 
-- **3.3V Signal Regulation**:  
-  The 3.3V signal is **separate**, allowing you to regulate it once externally. This reduces the need for onboard switching power supplies or regulators, significantly lowering the cost per feeder. This also cuts down on heat dissipation, improving the overall efficiency of the board.  
+- **3.3V Bus**:  
+  The 3.3V bus is **separate**, allowing you to regulate it once externally. This reduces the need for onboard switching power supplies or regulators, significantly lowering the cost per feeder. This also cuts down on heat dissipation, improving the overall efficiency of the board.  
 
 - **Optional Communication Bus**:  
-  The communication bus functionality is available for machines that can easily integrate it, but it’s optional. This ensures flexibility for retrofitting machines where communication buses may not be practical or cost-effective.  
+  The communication bus functionality is available for machines that can easily integrate it, but it’s optional. This ensures flexibility for retrofitting machines where communication buses may not be practical or cost-effective. A USB controller is also available called the  **Feeder Commander**  
 
 - **Ultra-Low-Cost Design**:  
   Designed from the ground up to keep costs low while making the Opulo feeder accessible to a wide range of machines. The 3.3V regulation and power efficiency are key factors in reducing costs without compromising functionality.  
@@ -59,4 +61,3 @@ Contributions, feedback, and suggestions are welcome!
 This project is open-source, but it is important to acknowledge the influence of Opulo’s feeder design. Their work is the foundation for these advancements, and I’ve disclosed all relevant details about its inspiration and modifications.  
 
 For any inquiries, please contact me via GitHub, [Discord](https://discord.com/channels/1316400333928267817/1316400333928267820) or submit an issue in the repository.
-
