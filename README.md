@@ -31,7 +31,7 @@ The **Feeder Control** board is an open-source controller designed to work seaml
   The board also includes **12V power** that can power the motor bus. While the 12V supply may potentially be adjustable, this needs to be confirmed through further testing, as it is primarily designed to support the motor.  
 
 - **Analog Pin for Future Expansion**:  
-  One of the customizable pins, not used in the serial communication bus, has **analog capabilities**. This provides the opportunity for analog functions, which may be important for certain applications. While not all analog functions may be implemented in the firmware initially, the hardware is capable of supporting them.  
+  One of the features of the customizable pin, not used in the serial communication bus, has **analog capabilities**. This provides the opportunity for analog functions, which may be important for certain applications. While not all analog functions may be implemented in the firmware initially, the hardware is capable of supporting them.  
 
 ## Why This Board?  
 I’m building my own pick-and-place machine based on the Opulo Lumen PNP. While Opulo's feeder controller is excellent, I designed the Feeder Control board to be simpler and to meet my specific needs. With this board, you can:  
