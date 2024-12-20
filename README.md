@@ -4,7 +4,7 @@
 
 **BETA PCBs will be available soon message on Discord Info at the bottom.**
 
-The **Feeder Control** board is an open-source controller designed to work seamlessly with the [Opulo Lumen PNP feeder design](https://opulo.io). This board allows for the simple use of an M8 connector to individually control feeders without relying on a mandatory communication bus. Instead, it provides the option for a communication bus while also enabling simple direct connections. The USB-to-serial converter (**Feeder Commander**) is incredibly affordable, making this an ideal solution for a wide range of setups.  
+The **Feeder Control** board is an open-source controller designed to work seamlessly with the [Opulo Lumen PNP feeder design](https://opulo.io). This board allows for the simple use of an connector to individually control feeders without relying on a mandatory communication bus. Instead, it provides the option for a communication bus while also enabling simple direct connections. The USB-to-serial converter (**Feeder Commander**) is incredibly affordable, making this an ideal solution for a wide range of setups.  
 
 ## Key Features 
 
